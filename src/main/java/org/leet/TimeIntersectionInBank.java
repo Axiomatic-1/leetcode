@@ -44,7 +44,7 @@ public class TimeIntersectionInBank {
                         if (visitTime.getTo().compareTo(otherVisiter.getFrom()) >= 0) {
                             counter++;
                         }
-                        //если второй клиент пришел раньше, проверяем пересекся ли он с первым
+                    //если второй клиент пришел раньше, проверяем пересекся ли он с первым
                     } else if (otherVisiter.getTo().compareTo(visitTime.getFrom()) >= 0) {
                         counter++;
                     }
